@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.18.RELEASE</version>
+        <version>1.5.7.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
@@ -17,10 +17,7 @@
         <java.version>1.8</java.version>
     </properties>
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
+    <!--全家桶-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -28,10 +25,58 @@
             <scope>test</scope>
         </dependency>
 
+<!--自动框架-->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-integration</artifactId>
+            <groupId>com.smart</groupId>
+            <artifactId>smart-kernal</artifactId>
+            <version>1.0</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.smartsoft</groupId>
+            <artifactId>core</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/core-1.0-SNAPSHOT.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>cfca</groupId>
+            <artifactId>ra-toolkit</artifactId>
+            <version>3.6.7.2</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/ra-toolkit-3.6.7.2.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>cfca</groupId>
+            <artifactId>SADK</artifactId>
+            <version>3.5.2.1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/SADK-3.5.2.1.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>cfca</groupId>
+            <artifactId>logback-cfca-jdk1.6</artifactId>
+            <version>3.2.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/logback-cfca-jdk1.6-3.2.0.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>gmsm</groupId>
+            <artifactId>tjfoc-gmsm</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/tjfoc-gmsm-0.0.1-SNAPSHOT-jar-with-dependencies.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.artofsolving</groupId>
+            <artifactId>jodconverter-core</artifactId>
+            <version>3.0-beta-4</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/jodconverter-core-3.0-beta-4.jar</systemPath>
+        </dependency>
+
+<!--        MQTT-->
         <dependency>
             <groupId>org.springframework.integration</groupId>
             <artifactId>spring-integration-stream</artifactId>
@@ -53,34 +98,32 @@
             <version>1.2.32</version>
         </dependency>
 
+        <!-- 一个Java基础工具类，对文件、流、加密解密、转码、正则、线程、XML等JDK方法进行封装，组成各种Util工具类 -->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>4.5.6</version>
+        </dependency>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
 
-        <!--MySQL JDBC驱动-->
+
+<!--mybatis-->
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <scope>runtime</scope>
+            <groupId>org.mybatis.generator</groupId>
+            <artifactId>mybatis-generator-core</artifactId>
+            <version>1.3.5</version>
+            <scope>test</scope>
         </dependency>
-        <!--MyBatis 及 插件依赖-->
-        <dependency>
-            <groupId>org.mybatis</groupId>
-            <artifactId>mybatis-spring</artifactId>
-            <version>1.3.1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mybatis</groupId>
-            <artifactId>mybatis</artifactId>
-            <version>3.4.5</version>
-        </dependency>
-        <dependency>
-            <groupId>tk.mybatis</groupId>
-            <artifactId>mapper</artifactId>
-            <version>3.4.2</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.baomidou</groupId>-->
+<!--            <artifactId>mybatis-plus-boot-starter</artifactId>-->
+<!--            <version>3.3.2</version>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>com.github.pagehelper</groupId>
@@ -120,8 +163,58 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <includeSystemScope>true</includeSystemScope>
+                </configuration>
+                <dependencies>
+
+                    <!--hot reload-->
+                    <!--<dependency>-->
+                    <!--<groupId>org.springframework</groupId>-->
+                    <!--<artifactId>springloaded</artifactId>-->
+                    <!--</dependency>-->
+                </dependencies>
             </plugin>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <encoding>UTF-8</encoding>
+
+                </configuration>
+            </plugin>
+
         </plugins>
     </build>
 
+
+    <repositories>
+        <repository>
+            <id>aliyun-repos</id>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+
+        <repository>
+            <id>maven-repo-master</id>
+            <url>https://raw.github.com/smartsoft168/maven-repo/master/</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>aliyun-plugin</id>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
 </project>
