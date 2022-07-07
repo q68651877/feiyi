@@ -1,0 +1,123 @@
+{
+  "module": "filetemplate",
+  "name": "filetemplate",
+  "fields": [
+    {
+      "name": "id",
+      "label": "Id",
+      "type": "number",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "createdBy",
+      "label": "CreatedBy",
+      "type": "number",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "createdDate",
+      "label": "CreatedDate",
+      "type": "datetime",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "lastModifiedBy",
+      "label": "LastModifiedBy",
+      "type": "number",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "lastModifiedDate",
+      "label": "LastModifiedDate",
+      "type": "datetime",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "version",
+      "label": "Version",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 10,
+      "hideInEdit": true
+    },
+    {
+      "name": "fileName",
+      "label": "FileName",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 30,
+      "hideInEdit": false
+    },
+    {
+      "name": "fileKey",
+      "label": "FileKey",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 50,
+      "hideInEdit": false
+    },
+    {
+      "name": "fileType",
+      "label": "FileType",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 50,
+      "hideInEdit": false
+    },
+    {
+      "name": "category",
+      "label": "Category",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 50,
+      "hideInEdit": false
+    },
+    {
+      "name": "package",
+      "label": "Package",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "uploadUserId",
+      "label": "UploadUserId",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": false
+    }
+  ]
+}

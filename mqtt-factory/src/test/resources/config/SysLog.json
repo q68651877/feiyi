@@ -1,0 +1,86 @@
+{
+  "module": "syslog",
+  "name": "syslog",
+  "fields": [
+    {
+      "name": "id",
+      "label": "Id",
+      "type": "number",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "action",
+      "label": "Action",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "actionUserId",
+      "label": "ActionUserId",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "remarks",
+      "label": "Remarks",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 500,
+      "hideInEdit": false
+    },
+    {
+      "name": "createdDate",
+      "label": "CreatedDate",
+      "type": "datetime",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "createdBy",
+      "label": "CreatedBy",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "lastModifiedBy",
+      "label": "LastModifiedBy",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "lastModifiedDate",
+      "label": "LastModifiedDate",
+      "type": "datetime",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "version",
+      "label": "Version",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 10,
+      "hideInEdit": true
+    }
+  ]
+}

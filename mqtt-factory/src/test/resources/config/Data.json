@@ -1,0 +1,99 @@
+{
+  "module": "data",
+  "name": "data",
+  "fields": [
+    {
+      "name": "id",
+      "label": "Id",
+      "type": "number",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "name",
+      "label": "Name",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "dataSize",
+      "label": "DataSize",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "downloadCount",
+      "label": "DownloadCount",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "addUser",
+      "label": "AddUser",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "activeUser",
+      "label": "ActiveUser",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "createdBy",
+      "label": "CreatedBy",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "lastModifiedBy",
+      "label": "LastModifiedBy",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "createdDate",
+      "label": "CreatedDate",
+      "type": "datetime",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "lastModifiedDate",
+      "label": "LastModifiedDate",
+      "type": "datetime",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "version",
+      "label": "Version",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 10,
+      "hideInEdit": true
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "module": "system",
+  "name": "menu",
+  "fields": [
+    {
+      "name": "icon",
+      "label": "Icon",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 30,
+      "hideInEdit": false
+    },
+    {
+      "name": "name",
+      "label": "Name",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 60,
+      "hideInEdit": false
+    },
+    {
+      "name": "routerName",
+      "label": "RouterName",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 60,
+      "hideInEdit": false
+    },
+    {
+      "name": "linkUrl",
+      "label": "LinkUrl",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 200,
+      "hideInEdit": false
+    },
+    {
+      "name": "status",
+      "label": "Status",
+      "type": "number",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": false
+    }
+  ]
+}

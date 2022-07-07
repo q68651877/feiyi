@@ -1,0 +1,109 @@
+{
+  "module": "topic",
+  "name": "topic",
+  "fields": [
+    {
+      "name": "id",
+      "label": "Id",
+      "type": "number",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 500,
+      "hideInEdit": false
+    },
+    {
+      "name": "startDate",
+      "label": "StartDate",
+      "type": "datetime",
+      "rules": [
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "endDate",
+      "label": "EndDate",
+      "type": "datetime",
+      "rules": [
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 500,
+      "hideInEdit": false
+    },
+    {
+      "name": "weight",
+      "label": "Weight",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "type",
+      "label": "Type",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "createdBy",
+      "label": "CreatedBy",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "createdDate",
+      "label": "CreatedDate",
+      "type": "datetime",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "lastModifiedBy",
+      "label": "LastModifiedBy",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "lastModifiedDate",
+      "label": "LastModifiedDate",
+      "type": "datetime",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "version",
+      "label": "Version",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 10,
+      "hideInEdit": true
+    }
+  ]
+}

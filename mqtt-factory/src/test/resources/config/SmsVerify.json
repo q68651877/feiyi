@@ -1,0 +1,27 @@
+{
+  "module": "system",
+  "name": "smsVerify",
+  "fields": [
+    {
+      "name": "mobile",
+      "label": "手机",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 30,
+      "hideInEdit": false
+    },
+    {
+      "name": "verify_code",
+      "label": "验证短信",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 30,
+      "hideInEdit": false
+    }
+  ]
+}

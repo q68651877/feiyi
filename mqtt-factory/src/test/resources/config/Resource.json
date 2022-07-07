@@ -1,0 +1,58 @@
+{
+  "module": "system",
+  "name": "resource",
+  "fields": [
+    {
+      "name": "name",
+      "label": "名称",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 150,
+      "hideInEdit": false
+    },
+    {
+      "name": "路径",
+      "label": "url",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "方法",
+      "label": "requestMethod",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 10,
+      "hideInEdit": false
+    },
+    {
+      "name": "类型",
+      "label": "type",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 30,
+      "hideInEdit": false
+    },
+    {
+      "name": "检查类型",
+      "label": "checkType",
+      "type": "number",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": false
+    }
+  ]
+}

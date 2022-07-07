@@ -1,0 +1,94 @@
+{
+  "module": "system",
+  "name": "emailConfig",
+  "fields": [
+    {
+      "name": "host",
+      "label": "主机：",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 50,
+      "hideInEdit": false
+    },
+    {
+      "name": "port",
+      "label": "端口：",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 200,
+      "hideInEdit": false
+    },
+    {
+      "name": "protocol",
+      "label": "协议：",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "parameter",
+      "label": "参数：",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "username",
+      "label": "用户名：",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "password",
+      "label": "密码：",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "encoding",
+      "label": "编码格式：",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "emailFrom",
+      "label": "邮件来源：",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    }
+  ]
+}

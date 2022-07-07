@@ -1,0 +1,24 @@
+{
+  "module": "userowner",
+  "name": "userowner",
+  "fields": [
+    {
+      "name": "userId",
+      "label": "UserId",
+      "type": "number",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "ownerId",
+      "label": "OwnerId",
+      "type": "number",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": false
+    }
+  ]
+}

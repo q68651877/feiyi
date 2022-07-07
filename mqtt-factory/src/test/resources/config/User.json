@@ -1,0 +1,92 @@
+{
+  "module": "system",
+  "name": "user",
+  "fields": [
+    {
+      "name": "mobile",
+      "label": "Mobile",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 50,
+      "hideInEdit": false
+    },
+    {
+      "name": "loginName",
+      "label": "LoginName",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 50,
+      "hideInEdit": false
+    },
+    {
+      "name": "name",
+      "label": "Name",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 50,
+      "hideInEdit": false
+    },
+    {
+      "name": "email",
+      "label": "Email",
+      "type": "email",
+      "rules": [
+        "required",
+        "maxlength",
+        "email"
+      ],
+      "maxlength": 100,
+      "hideInEdit": false
+    },
+    {
+      "name": "imageUrl",
+      "label": "ImageUrl",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 256,
+      "hideInEdit": false
+    },
+    {
+      "name": "status",
+      "label": "Status",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 10,
+      "hideInEdit": false
+    },
+    {
+      "name": "password",
+      "label": "Password",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 500,
+      "hideInEdit": false
+    },
+    {
+      "name": "type",
+      "label": "Type",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 20,
+      "hideInEdit": false
+    }
+  ]
+}

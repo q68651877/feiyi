@@ -1,0 +1,109 @@
+{
+  "module": "dataresource",
+  "name": "dataresource",
+  "fields": [
+    {
+      "name": "id",
+      "label": "Id",
+      "type": "number",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "dataServiceId",
+      "label": "DataServiceId",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "dataPackageName",
+      "label": "DataPackageName",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "dataFormat",
+      "label": "DataFormat",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "dataSize",
+      "label": "DataSize",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "dataVolume",
+      "label": "DataVolume",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "publishTime",
+      "label": "PublishTime",
+      "type": "datetime",
+      "rules": [
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "createdBy",
+      "label": "CreatedBy",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "lastModifiedBy",
+      "label": "LastModifiedBy",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "createdDate",
+      "label": "CreatedDate",
+      "type": "datetime",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "lasteModifiedDate",
+      "label": "LasteModifiedDate",
+      "type": "datetime",
+      "rules": [
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "version",
+      "label": "Version",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 10,
+      "hideInEdit": true
+    }
+  ]
+}

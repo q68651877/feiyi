@@ -1,0 +1,66 @@
+{
+  "module": "appuser",
+  "name": "appuser",
+  "fields": [
+    {
+      "name": "userId",
+      "label": "UserId",
+      "type": "number",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "appId",
+      "label": "AppId",
+      "type": "number",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "createdBy",
+      "label": "CreatedBy",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "createdDate",
+      "label": "CreatedDate",
+      "type": "datetime",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "lastModifiedBy",
+      "label": "LastModifiedBy",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "lastModifiedDate",
+      "label": "LastModifiedDate",
+      "type": "datetime",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "version",
+      "label": "Version",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 10,
+      "hideInEdit": true
+    }
+  ]
+}

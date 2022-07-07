@@ -1,0 +1,33 @@
+{
+	"module": "viewfield",
+	"name": "viewfield",
+	"fields": [
+		 {
+			 "name": "id",
+			 "label": "Id",
+			 "type": "number",
+			 "rules": [
+				 "required"
+			 ], 
+			 "hideInEdit": true
+		 },
+		 {
+			 "name": "viewId",
+			 "label": "ViewId",
+			 "type": "number",
+			 "rules": [
+			 ], 
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "fieldId",
+			 "label": "FieldId",
+			 "type": "text",
+			 "rules": [
+				 "maxlength"
+			 ], 
+			 "maxlength": 10,
+			 "hideInEdit": false
+		 }
+	]
+}

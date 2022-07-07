@@ -1,0 +1,263 @@
+{
+  "module": "personalauthentication",
+  "name": "personalauthentication",
+  "fields": [
+    {
+      "name": "id",
+      "label": "Id",
+      "type": "number",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "status",
+      "label": "Status",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 20,
+      "hideInEdit": false
+    },
+    {
+      "name": "name",
+      "label": "Name",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 50,
+      "hideInEdit": false
+    },
+    {
+      "name": "identityCard",
+      "label": "IdentityCard",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 50,
+      "hideInEdit": false
+    },
+    {
+      "name": "mobile",
+      "label": "Mobile",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 50,
+      "hideInEdit": false
+    },
+    {
+      "name": "identityCardPhotoFront",
+      "label": "IdentityCardPhotoFront",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "identityCardPhotoReverse",
+      "label": "IdentityCardPhotoReverse",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "identityCardPhotoFrontHandle",
+      "label": "IdentityCardPhotoFrontHandle",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "identityCardPhotoReverseHandle",
+      "label": "IdentityCardPhotoReverseHandle",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "userId",
+      "label": "UserId",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "appId",
+      "label": "AppId",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "nameVerifyStatus",
+      "label": "NameVerifyStatus",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 20,
+      "hideInEdit": false
+    },
+    {
+      "name": "nameMessage",
+      "label": "NameMessage",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "identityCardVerifyStatus",
+      "label": "IdentityCardVerifyStatus",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 20,
+      "hideInEdit": false
+    },
+    {
+      "name": "identityCardMessage",
+      "label": "IdentityCardMessage",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "mobileVerifyStatus",
+      "label": "MobileVerifyStatus",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 20,
+      "hideInEdit": false
+    },
+    {
+      "name": "mobileMessage",
+      "label": "MobileMessage",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "identityCardPhotoVerifyStatus",
+      "label": "IdentityCardPhotoVerifyStatus",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 20,
+      "hideInEdit": false
+    },
+    {
+      "name": "identityCardPhotoMessage",
+      "label": "IdentityCardPhotoMessage",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "identityCardPhotoHandleVerifyStatus",
+      "label": "IdentityCardPhotoHandleVerifyStatus",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "identityCardPhotoHandleMessage",
+      "label": "IdentityCardPhotoHandleMessage",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "authenticateMessage",
+      "label": "AuthenticateMessage",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "createdBy",
+      "label": "CreatedBy",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "createdDate",
+      "label": "CreatedDate",
+      "type": "datetime",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "lastModifiedBy",
+      "label": "LastModifiedBy",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "lastModifiedDate",
+      "label": "LastModifiedDate",
+      "type": "datetime",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "version",
+      "label": "Version",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 10,
+      "hideInEdit": true
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+	"module": "policypolicy",
+	"name": "policypolicy",
+	"fields": [
+		 {
+			 "name": "policyId",
+			 "label": "PolicyId",
+			 "type": "number",
+			 "rules": [
+				 "required"
+			 ], 
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "oldPolicyId",
+			 "label": "OldPolicyId",
+			 "type": "number",
+			 "rules": [
+				 "required"
+			 ], 
+			 "hideInEdit": false
+		 }
+	]
+}

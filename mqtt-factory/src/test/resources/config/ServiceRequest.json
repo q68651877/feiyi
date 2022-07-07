@@ -1,0 +1,103 @@
+{
+  "module": "servicerequest",
+  "name": "servicerequest",
+  "fields": [
+    {
+      "name": "id",
+      "label": "Id",
+      "type": "number",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "dataServiceId",
+      "label": "DataServiceId",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "interfaceId",
+      "label": "InterfaceId",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "name",
+      "label": "Name",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 50,
+      "hideInEdit": false
+    },
+    {
+      "name": "mustStatus",
+      "label": "MustStatus",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": null,
+      "hideInEdit": false
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 500,
+      "hideInEdit": false
+    },
+    {
+      "name": "createdBy",
+      "label": "CreatedBy",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "createdDate",
+      "label": "CreatedDate",
+      "type": "datetime",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "lastModifiedBy",
+      "label": "LastModifiedBy",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "lastModifiedDate",
+      "label": "LastModifiedDate",
+      "type": "datetime",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "version",
+      "label": "Version",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 10,
+      "hideInEdit": true
+    }
+  ]
+}

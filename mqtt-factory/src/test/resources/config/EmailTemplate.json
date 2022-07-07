@@ -1,0 +1,114 @@
+{
+  "module": "system",
+  "name": "emailTemplate",
+  "fields": [
+    {
+      "name": "templateId",
+      "label": "模板编号：",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 50,
+      "hideInEdit": false
+    },
+    {
+      "name": "description",
+      "label": "描述：",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 200,
+      "hideInEdit": false
+    },
+    {
+      "name": "content",
+      "label": "正文：",
+      "type": "textarea",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "parameter",
+      "label": "参数：",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "templateSubject",
+      "label": "主题：",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "templateFrom",
+      "label": "发件人邮箱：",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "templateFromName",
+      "label": "发件人：",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "templateTo",
+      "label": "收件人：",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "templateCc",
+      "label": "抄送：",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "templateBcc",
+      "label": "密送：",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    }
+  ]
+}

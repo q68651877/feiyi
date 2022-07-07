@@ -1,0 +1,175 @@
+{
+  "module": "sealcompany",
+  "name": "sealcompany",
+  "fields": [
+    {
+      "name": "version",
+      "label": "Version",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 10,
+      "hideInEdit": true
+    },
+    {
+      "name": "createdBy",
+      "label": "CreatedBy",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 32,
+      "hideInEdit": true
+    },
+    {
+      "name": "createdDate",
+      "label": "CreatedDate",
+      "type": "datetime",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "lastModifiedBy",
+      "label": "LastModifiedBy",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 32,
+      "hideInEdit": true
+    },
+    {
+      "name": "lastModifiedDate",
+      "label": "LastModifiedDate",
+      "type": "datetime",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "id",
+      "label": "Id",
+      "type": "number",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "userId",
+      "label": "UserId",
+      "type": "number",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "sealName",
+      "label": "SealName",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 50,
+      "hideInEdit": false
+    },
+    {
+      "name": "sealContent",
+      "label": "SealContent",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 32,
+      "hideInEdit": false
+    },
+    {
+      "name": "sealType",
+      "label": "SealType",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 32,
+      "hideInEdit": false
+    },
+    {
+      "name": "sealSize",
+      "label": "SealSize",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 32,
+      "hideInEdit": false
+    },
+    {
+      "name": "sealHorizonalContent",
+      "label": "SealHorizonalContent",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 32,
+      "hideInEdit": false
+    },
+    {
+      "name": "sealNum",
+      "label": "SealNum",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 32,
+      "hideInEdit": false
+    },
+    {
+      "name": "sealCenterContent",
+      "label": "SealCenterContent",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 128,
+      "hideInEdit": false
+    },
+    {
+      "name": "remark",
+      "label": "Remark",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 512,
+      "hideInEdit": false
+    },
+    {
+      "name": "sealUrl",
+      "label": "SealUrl",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 1024,
+      "hideInEdit": false
+    },
+    {
+      "name": "defaultInd",
+      "label": "DefaultInd",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 1,
+      "hideInEdit": false
+    }
+  ]
+}

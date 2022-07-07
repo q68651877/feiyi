@@ -1,0 +1,41 @@
+{
+	"module": "viewuser",
+	"name": "viewuser",
+	"fields": [
+		 {
+			 "name": "id",
+			 "label": "Id",
+			 "type": "number",
+			 "rules": [
+				 "required"
+			 ], 
+			 "hideInEdit": true
+		 },
+		 {
+			 "name": "userId",
+			 "label": "UserId",
+			 "type": "number",
+			 "rules": [
+			 ], 
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "viewId",
+			 "label": "ViewId",
+			 "type": "number",
+			 "rules": [
+			 ], 
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "conditionRelation",
+			 "label": "ConditionRelation",
+			 "type": "text",
+			 "rules": [
+				 "maxlength"
+			 ], 
+			 "maxlength": 10,
+			 "hideInEdit": false
+		 }
+	]
+}

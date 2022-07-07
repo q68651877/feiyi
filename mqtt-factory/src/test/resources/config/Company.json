@@ -1,0 +1,120 @@
+{
+  "module": "company",
+  "name": "company",
+  "fields": [
+    {
+      "name": "id",
+      "label": "Id",
+      "type": "number",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "name",
+      "label": "Name",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 50,
+      "hideInEdit": false
+    },
+    {
+      "name": "type",
+      "label": "Type",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 30,
+      "hideInEdit": false
+    },
+    {
+      "name": "registeredNo",
+      "label": "RegisteredNo",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 100,
+      "hideInEdit": false
+    },
+    {
+      "name": "legalPerson",
+      "label": "LegalPerson",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 50,
+      "hideInEdit": false
+    },
+    {
+      "name": "legalPersonIdentityCard",
+      "label": "LegalPersonIdentityCard",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 256,
+      "hideInEdit": false
+    },
+    {
+      "name": "operatorId",
+      "label": "OperatorId",
+      "type": "number",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "createdBy",
+      "label": "CreatedBy",
+      "type": "number",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "createdDate",
+      "label": "CreatedDate",
+      "type": "datetime",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "lastModifiedBy",
+      "label": "LastModifiedBy",
+      "type": "number",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "lastModifiedDate",
+      "label": "LastModifiedDate",
+      "type": "datetime",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "version",
+      "label": "Version",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 10,
+      "hideInEdit": true
+    }
+  ]
+}

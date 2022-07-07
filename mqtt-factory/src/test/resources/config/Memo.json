@@ -1,0 +1,108 @@
+{
+	"module": "memo",
+	"name": "memo",
+	"fields": [
+		 {
+			 "name": "id",
+			 "label": "Id",
+			 "type": "number",
+			 "rules": [
+				 "required"
+			 ], 
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "name",
+			 "label": "Name",
+			 "type": "text",
+			 "rules": [
+				 "maxlength"
+			 ], 
+			 "maxlength": 50,
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "userId",
+			 "label": "UserId",
+			 "type": "number",
+			 "rules": [
+				 "required"
+			 ], 
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "modifyTime",
+			 "label": "ModifyTime",
+			 "type": "date",
+			 "rules": [
+			 ], 
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "hash",
+			 "label": "Hash",
+			 "type": "text",
+			 "rules": [
+				 "maxlength"
+			 ], 
+			 "maxlength": 255,
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "delFlag",
+			 "label": "DelFlag",
+			 "type": "text",
+			 "rules": [
+				 "required"
+				 ,"maxlength"
+			 ], 
+			 "maxlength": 10,
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "createdBy",
+			 "label": "CreatedBy",
+			 "type": "number",
+			 "rules": [
+				 "required"
+			 ], 
+			 "hideInEdit": true
+		 },
+		 {
+			 "name": "createdDate",
+			 "label": "CreatedDate",
+			 "type": "datetime",
+			 "rules": [
+			 ], 
+			 "hideInEdit": true
+		 },
+		 {
+			 "name": "lastModifiedBy",
+			 "label": "LastModifiedBy",
+			 "type": "number",
+			 "rules": [
+				 "required"
+			 ], 
+			 "hideInEdit": true
+		 },
+		 {
+			 "name": "lastModifiedDate",
+			 "label": "LastModifiedDate",
+			 "type": "datetime",
+			 "rules": [
+			 ], 
+			 "hideInEdit": true
+		 },
+		 {
+			 "name": "version",
+			 "label": "Version",
+			 "type": "text",
+			 "rules": [
+				 "required"
+				 ,"maxlength"
+			 ], 
+			 "maxlength": 10,
+			 "hideInEdit": true
+		 }
+	]
+}

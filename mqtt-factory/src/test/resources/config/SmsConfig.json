@@ -1,0 +1,60 @@
+{
+  "module": "system",
+  "name": "smsConfig",
+  "fields": [
+    {
+      "name": "accessKeyId",
+      "label": "Access-key-id",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "acessKeySecret",
+      "label": "Acess-key-secret",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 500,
+      "hideInEdit": false
+    },
+    {
+      "name": "signName",
+      "label": "Sign-name",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "sendType",
+      "label": "Send_type",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "描述",
+      "label": "description",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 1000,
+      "hideInEdit": false
+    }
+  ]
+}

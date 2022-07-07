@@ -1,0 +1,551 @@
+{
+  "module": "enterpriseauthentication",
+  "name": "enterpriseauthentication",
+  "fields": [
+    {
+      "name": "id",
+      "label": "Id",
+      "type": "number",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "status",
+      "label": "Status",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 20,
+      "hideInEdit": false
+    },
+    {
+      "name": "type",
+      "label": "Type",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 20,
+      "hideInEdit": false
+    },
+    {
+      "name": "userId",
+      "label": "UserId",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "enterpriseName",
+      "label": "EnterpriseName",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 50,
+      "hideInEdit": false
+    },
+    {
+      "name": "registeredNo",
+      "label": "RegisteredNo",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 100,
+      "hideInEdit": false
+    },
+    {
+      "name": "enterpriseLicense",
+      "label": "EnterpriseLicense",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "legalName",
+      "label": "LegalName",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 50,
+      "hideInEdit": false
+    },
+    {
+      "name": "legalIdentityCard",
+      "label": "LegalIdentityCard",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "legalMobile",
+      "label": "LegalMobile",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 50,
+      "hideInEdit": false
+    },
+    {
+      "name": "legalIdentityCardPhotoFront",
+      "label": "LegalIdentityCardPhotoFront",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "legalIdentityCardPhotoReverse",
+      "label": "LegalIdentityCardPhotoReverse",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "agentName",
+      "label": "AgentName",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 50,
+      "hideInEdit": false
+    },
+    {
+      "name": "agentIdentityCard",
+      "label": "AgentIdentityCard",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "agentMobile",
+      "label": "AgentMobile",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 50,
+      "hideInEdit": false
+    },
+    {
+      "name": "agentIdentityCardPhotoFront",
+      "label": "AgentIdentityCardPhotoFront",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "agentIdentityCardPhotoReverse",
+      "label": "AgentIdentityCardPhotoReverse",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "agentIdentityCardPhotoFrontHandle",
+      "label": "AgentIdentityCardPhotoFrontHandle",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "agentIdentityCardPhotoReverseHandle",
+      "label": "AgentIdentityCardPhotoReverseHandle",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "authenticationFile",
+      "label": "AuthenticationFile",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "bankName",
+      "label": "BankName",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 50,
+      "hideInEdit": false
+    },
+    {
+      "name": "bankAccount",
+      "label": "BankAccount",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 50,
+      "hideInEdit": false
+    },
+    {
+      "name": "verifyAmout",
+      "label": "VerifyAmout",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "appId",
+      "label": "AppId",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "enterpriseNameVerifyStatus",
+      "label": "EnterpriseNameVerifyStatus",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 20,
+      "hideInEdit": false
+    },
+    {
+      "name": "enterpriseNameMessage",
+      "label": "EnterpriseNameMessage",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "registeredNoVerifyStatus",
+      "label": "RegisteredNoVerifyStatus",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 20,
+      "hideInEdit": false
+    },
+    {
+      "name": "registeredNoMessage",
+      "label": "RegisteredNoMessage",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "enterpriseLicenseVerifyStatus",
+      "label": "EnterpriseLicenseVerifyStatus",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 20,
+      "hideInEdit": false
+    },
+    {
+      "name": "enterpriseLicenseMessage",
+      "label": "EnterpriseLicenseMessage",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "legalNameVerifyStatus",
+      "label": "LegalNameVerifyStatus",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 20,
+      "hideInEdit": false
+    },
+    {
+      "name": "legalNameMessage",
+      "label": "LegalNameMessage",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "legalIdentityCardVerifyStatus",
+      "label": "LegalIdentityCardVerifyStatus",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 20,
+      "hideInEdit": false
+    },
+    {
+      "name": "legalIdentityCardMessage",
+      "label": "LegalIdentityCardMessage",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "legalMobileVerifyStatus",
+      "label": "LegalMobileVerifyStatus",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 20,
+      "hideInEdit": false
+    },
+    {
+      "name": "legalMobileMessage",
+      "label": "LegalMobileMessage",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "legalIdentityCardPhotoVerifyStatus",
+      "label": "LegalIdentityCardPhotoVerifyStatus",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 20,
+      "hideInEdit": false
+    },
+    {
+      "name": "legalIdentityCardPhotoMessage",
+      "label": "LegalIdentityCardPhotoMessage",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "authenticationFileVerifyStatus",
+      "label": "AuthenticationFileVerifyStatus",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 20,
+      "hideInEdit": false
+    },
+    {
+      "name": "authenticationFileMessage",
+      "label": "AuthenticationFileMessage",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "agentNameVerifyStatus",
+      "label": "AgentNameVerifyStatus",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 20,
+      "hideInEdit": false
+    },
+    {
+      "name": "agentNameMessage",
+      "label": "AgentNameMessage",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "agentIdentityCardVerifyStatus",
+      "label": "AgentIdentityCardVerifyStatus",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 20,
+      "hideInEdit": false
+    },
+    {
+      "name": "agentIdentityCardMessage",
+      "label": "AgentIdentityCardMessage",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "agentMobileVerifyStatus",
+      "label": "AgentMobileVerifyStatus",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 20,
+      "hideInEdit": false
+    },
+    {
+      "name": "agentMobileMessage",
+      "label": "AgentMobileMessage",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "agentIdentityCardPhotoVerifyStatus",
+      "label": "AgentIdentityCardPhotoVerifyStatus",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 20,
+      "hideInEdit": false
+    },
+    {
+      "name": "agentIdentityCardPhotoMessage",
+      "label": "AgentIdentityCardPhotoMessage",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "agentIdentityCardPhotoHandleVerifyStatus",
+      "label": "AgentIdentityCardPhotoHandleVerifyStatus",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 20,
+      "hideInEdit": false
+    },
+    {
+      "name": "agentIdentityCardPhotoHandleMessage",
+      "label": "AgentIdentityCardPhotoHandleMessage",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "authenticateMessage",
+      "label": "AuthenticateMessage",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "createdBy",
+      "label": "CreatedBy",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "createdDate",
+      "label": "CreatedDate",
+      "type": "datetime",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "lastModifiedBy",
+      "label": "LastModifiedBy",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "lastModifiedDate",
+      "label": "LastModifiedDate",
+      "type": "datetime",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "version",
+      "label": "Version",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 10,
+      "hideInEdit": true
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "module": "system",
+  "name": "permission",
+  "fields": [
+    {
+      "name": "name",
+      "label": "名称",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 150,
+      "hideInEdit": false
+    },
+    {
+      "name": "type",
+      "label": "类型",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 30,
+      "hideInEdit": false
+    },
+    {
+      "name": "description",
+      "label": "描述",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 300,
+      "hideInEdit": false
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "module": "userresourcesensitive",
+  "name": "userresourcesensitive",
+  "fields": [
+    {
+      "name": "id",
+      "label": "Id",
+      "type": "number",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "serviceApplyId",
+      "label": "ServiceApplyId",
+      "type": "number",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "userId",
+      "label": "UserId",
+      "type": "number",
+      "rules": [
+        "required"
+      ],
+      "hideInEdit": false
+    },
+    {
+      "name": "category",
+      "label": "Category",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 100,
+      "hideInEdit": false
+    },
+    {
+      "name": "fieldname",
+      "label": "Fieldname",
+      "type": "text",
+      "rules": [
+        "required",
+        "maxlength"
+      ],
+      "maxlength": 255,
+      "hideInEdit": false
+    },
+    {
+      "name": "createdBy",
+      "label": "CreatedBy",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "createdDate",
+      "label": "CreatedDate",
+      "type": "datetime",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "lastModifiedBy",
+      "label": "LastModifiedBy",
+      "type": "number",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "lastModifiedDate",
+      "label": "LastModifiedDate",
+      "type": "datetime",
+      "rules": [
+      ],
+      "hideInEdit": true
+    },
+    {
+      "name": "version",
+      "label": "Version",
+      "type": "text",
+      "rules": [
+        "maxlength"
+      ],
+      "maxlength": 10,
+      "hideInEdit": true
+    }
+  ]
+}

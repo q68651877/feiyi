@@ -1,0 +1,118 @@
+{
+	"module": "history",
+	"name": "history",
+	"fields": [
+		 {
+			 "name": "id",
+			 "label": "Id",
+			 "type": "number",
+			 "rules": [
+				 "required"
+			 ], 
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "beforeContent",
+			 "label": "BeforeContent",
+			 "type": "textarea",
+			 "rules": [
+				 "maxlength"
+			 ], 
+			 "maxlength": 2147483647,
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "afterContent",
+			 "label": "AfterContent",
+			 "type": "textarea",
+			 "rules": [
+				 "maxlength"
+			 ], 
+			 "maxlength": 2147483647,
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "realContent",
+			 "label": "RealContent",
+			 "type": "textarea",
+			 "rules": [
+				 "maxlength"
+			 ], 
+			 "maxlength": 2147483647,
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "chain",
+			 "label": "Chain",
+			 "type": "text",
+			 "rules": [
+				 "maxlength"
+			 ], 
+			 "maxlength": 255,
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "contentType",
+			 "label": "ContentType",
+			 "type": "text",
+			 "rules": [
+				 "maxlength"
+			 ], 
+			 "maxlength": 10,
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "objectId",
+			 "label": "ObjectId",
+			 "type": "number",
+			 "rules": [
+			 ], 
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "createdBy",
+			 "label": "CreatedBy",
+			 "type": "number",
+			 "rules": [
+				 "required"
+			 ], 
+			 "hideInEdit": true
+		 },
+		 {
+			 "name": "createdDate",
+			 "label": "CreatedDate",
+			 "type": "datetime",
+			 "rules": [
+			 ], 
+			 "hideInEdit": true
+		 },
+		 {
+			 "name": "lastModifiedBy",
+			 "label": "LastModifiedBy",
+			 "type": "number",
+			 "rules": [
+				 "required"
+			 ], 
+			 "hideInEdit": true
+		 },
+		 {
+			 "name": "lastModifiedDate",
+			 "label": "LastModifiedDate",
+			 "type": "datetime",
+			 "rules": [
+			 ], 
+			 "hideInEdit": true
+		 },
+		 {
+			 "name": "version",
+			 "label": "Version",
+			 "type": "text",
+			 "rules": [
+				 "required"
+				 ,"maxlength"
+			 ], 
+			 "maxlength": 10,
+			 "hideInEdit": true
+		 }
+	]
+}
