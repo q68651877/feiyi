@@ -38,5 +38,6 @@ mybatis:
 logging:
   level:
     com.zrkc: info
+  file: mylog
 server:
-  port: 60003
+  port: 9001
