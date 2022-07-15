@@ -15,7 +15,8 @@ import org.springframework.transaction.annotation.Transactional;
  * 单元测试继承该类即可
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = MqttFactoryDemoApplication.class)
+@SpringBootTest(classes = MqttFactoryDemoApplication.class,webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+
 @Transactional
 @Rollback
 public abstract class Tester {
