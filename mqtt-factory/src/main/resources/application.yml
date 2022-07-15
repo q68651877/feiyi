@@ -39,5 +39,6 @@ logging:
   level:
     com.example.mqttfactorydemo: info
   file: mylog
+
 server:
   port: 9001
