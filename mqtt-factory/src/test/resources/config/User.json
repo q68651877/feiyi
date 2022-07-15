@@ -1,92 +1,158 @@
 {
-  "module": "system",
-  "name": "user",
-  "fields": [
-    {
-      "name": "mobile",
-      "label": "Mobile",
-      "type": "text",
-      "rules": [
-        "required",
-        "maxlength"
-      ],
-      "maxlength": 50,
-      "hideInEdit": false
-    },
-    {
-      "name": "loginName",
-      "label": "LoginName",
-      "type": "text",
-      "rules": [
-        "maxlength"
-      ],
-      "maxlength": 50,
-      "hideInEdit": false
-    },
-    {
-      "name": "name",
-      "label": "Name",
-      "type": "text",
-      "rules": [
-        "required",
-        "maxlength"
-      ],
-      "maxlength": 50,
-      "hideInEdit": false
-    },
-    {
-      "name": "email",
-      "label": "Email",
-      "type": "email",
-      "rules": [
-        "required",
-        "maxlength",
-        "email"
-      ],
-      "maxlength": 100,
-      "hideInEdit": false
-    },
-    {
-      "name": "imageUrl",
-      "label": "ImageUrl",
-      "type": "text",
-      "rules": [
-        "required",
-        "maxlength"
-      ],
-      "maxlength": 256,
-      "hideInEdit": false
-    },
-    {
-      "name": "status",
-      "label": "Status",
-      "type": "text",
-      "rules": [
-        "maxlength"
-      ],
-      "maxlength": 10,
-      "hideInEdit": false
-    },
-    {
-      "name": "password",
-      "label": "Password",
-      "type": "text",
-      "rules": [
-        "required",
-        "maxlength"
-      ],
-      "maxlength": 500,
-      "hideInEdit": false
-    },
-    {
-      "name": "type",
-      "label": "Type",
-      "type": "text",
-      "rules": [
-        "maxlength"
-      ],
-      "maxlength": 20,
-      "hideInEdit": false
-    }
-  ]
+	"module": "user",
+	"name": "user",
+	"fields": [
+		 {
+			 "name": "id",
+			 "label": "Id",
+			 "type": "number",
+			 "rules": [
+				 "required"
+			 ], 
+			 "hideInEdit": true
+		 },
+		 {
+			 "name": "loginName",
+			 "label": "LoginName",
+			 "type": "text",
+			 "rules": [
+				 "maxlength"
+			 ], 
+			 "maxlength": 100,
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "type",
+			 "label": "Type",
+			 "type": "text",
+			 "rules": [
+				 "maxlength"
+			 ], 
+			 "maxlength": 20,
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "name",
+			 "label": "Name",
+			 "type": "text",
+			 "rules": [
+				 "maxlength"
+			 ], 
+			 "maxlength": 50,
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "companyId",
+			 "label": "CompanyId",
+			 "type": "number",
+			 "rules": [
+			 ], 
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "mobile",
+			 "label": "Mobile",
+			 "type": "text",
+			 "rules": [
+				 "maxlength"
+			 ], 
+			 "maxlength": 50,
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "status",
+			 "label": "Status",
+			 "type": "text",
+			 "rules": [
+				 "required"
+				 ,"maxlength"
+			 ], 
+			 "maxlength": 10,
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "password",
+			 "label": "Password",
+			 "type": "text",
+			 "rules": [
+				 "maxlength"
+			 ], 
+			 "maxlength": 500,
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "userUuid",
+			 "label": "UserUuid",
+			 "type": "text",
+			 "rules": [
+				 "maxlength"
+			 ], 
+			 "maxlength": 70,
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "appId",
+			 "label": "AppId",
+			 "type": "number",
+			 "rules": [
+			 ], 
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "delFlag",
+			 "label": "DelFlag",
+			 "type": "text",
+			 "rules": [
+				 "required"
+				 ,"maxlength"
+			 ], 
+			 "maxlength": 11,
+			 "hideInEdit": false
+		 },
+		 {
+			 "name": "createdBy",
+			 "label": "CreatedBy",
+			 "type": "number",
+			 "rules": [
+				 "required"
+			 ], 
+			 "hideInEdit": true
+		 },
+		 {
+			 "name": "createdDate",
+			 "label": "CreatedDate",
+			 "type": "datetime",
+			 "rules": [
+			 ], 
+			 "hideInEdit": true
+		 },
+		 {
+			 "name": "lastModifiedBy",
+			 "label": "LastModifiedBy",
+			 "type": "number",
+			 "rules": [
+				 "required"
+			 ], 
+			 "hideInEdit": true
+		 },
+		 {
+			 "name": "lastModifiedDate",
+			 "label": "LastModifiedDate",
+			 "type": "datetime",
+			 "rules": [
+			 ], 
+			 "hideInEdit": true
+		 },
+		 {
+			 "name": "version",
+			 "label": "Version",
+			 "type": "text",
+			 "rules": [
+				 "required"
+				 ,"maxlength"
+			 ], 
+			 "maxlength": 10,
+			 "hideInEdit": true
+		 }
+	]
 }

@@ -8,13 +8,13 @@ import static com.smart.core.ProjectConstant.*;
  */
 public class CodeGenerator {
     //JDBC配置，请修改为你项目的实际配置
-    private static final String JDBC_URL = "jdbc:mysql://101.227.111.104:3306/fund_dev";
-    private static final String JDBC_USERNAME = "fundUser1";
-    private static final String JDBC_PASSWORD = "Pass@fundUser1.789";
+    private static final String JDBC_URL = "jdbc:mysql://1.15.183.199:3306/my_first_project";
+    private static final String JDBC_USERNAME = "root";
+    private static final String JDBC_PASSWORD = "Pyx19961115!";
     private static final String JDBC_DIVER_CLASS_NAME = "com.mysql.jdbc.Driver";
 
     public static void main(String[] args) {
-        genCodeByCustomModelName("tbl_declare_annex", "DeclareAnnex");
+        genCodeByCustomModelName("user", "User");
     }
 
     /**
