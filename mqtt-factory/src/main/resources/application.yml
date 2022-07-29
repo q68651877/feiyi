@@ -27,6 +27,13 @@ spring:
     keepAlive: 50
     qos: 1
 
+httpPool:
+  maxtotal: 200
+  defaultMaxPerRoute: 100
+  connectTimeOut: 60000
+  socketTimeOut: 60000
+  connectRequestTimeOut: 3000
+  validateAfterInactivity: 2000
 
 
 # Mybatis配置
